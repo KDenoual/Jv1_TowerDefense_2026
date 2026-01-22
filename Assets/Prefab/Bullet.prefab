@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletBehaviour
   targetEnemy: {fileID: 0}
-  speed: 0.1
+  speed: 0.01
   dammage: 5
   spriteRenderer: {fileID: 5851632266779521851}
 --- !u!58 &-1759508500434746753

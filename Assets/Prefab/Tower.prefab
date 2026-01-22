@@ -143,6 +143,6 @@ MonoBehaviour:
   enemiesInRange: []
   targetEnemy: {fileID: 0}
   shootTime: 1
-  dammage: 2
+  dammage: 5
   bulletColor: {r: 1, g: 1, b: 1, a: 1}
   bulletPrefab: {fileID: 7399463849973847338, guid: 4619f3dd645720346b7f85a12b123d80, type: 3}
