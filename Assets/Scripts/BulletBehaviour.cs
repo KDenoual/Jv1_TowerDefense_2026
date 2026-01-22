@@ -9,11 +9,11 @@ public class BulletBehaviour : MonoBehaviour
 
     void Update()
     {
+        transform.position = Vector3.MoveTowards(transform.position, targetEnemy.transform.position, speed);    
         if (targetEnemy == null)
         {
                Destroy(gameObject);
         }
-        transform.position = Vector3.MoveTowards(transform.position, targetEnemy.transform.position, speed);    
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
