@@ -109,7 +109,7 @@ MonoBehaviour:
   targetEnemy: {fileID: 0}
   dammage: 5
   spriteRenderer: {fileID: 5851632266779521851}
-  speed: 0.01
+  speed: 0.1
 --- !u!58 &-1759508500434746753
 CircleCollider2D:
   m_ObjectHideFlags: 0
